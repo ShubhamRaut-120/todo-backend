@@ -1,7 +1,6 @@
 const express = require('express');
 const body_parser = require('body-parser');
 const userRouter = require('./routes/user.router');
-// const todomodel = require('./model/todo.model');
 const TodoRouter = require('./routes/todo.router');
 
 const app = express();
